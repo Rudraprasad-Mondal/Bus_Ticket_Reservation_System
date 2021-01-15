@@ -15,7 +15,7 @@
 9. Select the location where the XAMPP software packet needs to be installed. The original setup creates a folder titled XAMPP under C:\ for you. After choosing a location, click "NEXT".
 10. After choosing from all the previously mentioned preferences (like language and learn more bitnami dialogue box) click to start the installation. The setup wizard will unpack and install the components to your system. The components are saved to the assigned directory. This process may takes a few minutes to complete. The progress of the installation in terms of percentage is visible on the screen.
 11. After the successful installation of the XAMPP setup on your desktop, press the "FINISH" button.
-12. On clicking the FINISH button, the software automatically launches, and the CONTROL PANEL is visible. The image below shows the appearance of the final result.
+12. On clicking the FINISH button, the software automatically launches, and the CONTROL PANEL is visible.
 13. Click on the "Start" button on the "Apache" and "MySQL" Module.
 
 ## Steps for Database configuration:
