@@ -1,6 +1,6 @@
 # Bus_Ticket_Reservation_System
 
-## Applications needed to run code:
+## Applications needed:
 1. XAMPP
 
 ## Steps to install XAMPP in Windows:
