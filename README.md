@@ -1,9 +1,9 @@
 # Bus_Ticket_Reservation_System
 
-# Applications needed to run code:
+## Applications needed to run code:
 1. XAMPP
 
-# Steps to install XAMPP in Windows:
+## Steps to install XAMPP in Windows:
 1. Open any web browser and visit https://www.apachefriends.org/index.html. On the home page, you can find the option to download XAMPP for three platforms- Windows, MAC, and Linux. Click on XAMPP for Windows. The latest version available on the website is 8.0.0.
 2. After the download is completed, double click the .exe extension file to start the process of installation.
 3. A pop-up screen with the message asking you to allow to make changes on your desktop appears. Click "YES" to continue the process.
@@ -18,7 +18,7 @@
 12. On clicking the FINISH button, the software automatically launches, and the CONTROL PANEL is visible. The image below shows the appearance of the final result.
 13. Click on the "Start" button on the "Apache" and "MySQL" Module.
 
-# Steps for Database configuration:
+## Steps for Database configuration:
 1. Download the "database.sql" File from GitHub.
 2. Open web browser and visit http://localhost/phpmyadmin/
 3. Click on "New" option which is present in left side of the page.
@@ -27,7 +27,7 @@
 6. Choose the "database.sql" File which is downloaded from Github.
 7. Go the right bottom corner and click on "Go" button.
 
-# Steps for Server configuration:
+## Steps for Server configuration:
 1. Download the PIS Folder from GitHub.
 2. Go to this address "C:\xampp\htdocs" in your PC.
 3. Clear the Folder.
