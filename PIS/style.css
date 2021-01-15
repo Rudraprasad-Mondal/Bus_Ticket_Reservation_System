@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.home ,.bus ,.details{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(205,133,63,0.4),rgba(205,133,63,0.4)),url(back1.jpg);
+    background-size:cover;
+    background-position: center;
+    position: absolute;
+    
+}
+.form-box ,.form-box1 ,.form-box2{
+    
+    padding: 5px;
+    background-color: #CD853F;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 500px; 
+    margin: 10% auto;
+    overflow: hidden;
+}
+.button-box{
+    width: 250px;
+    margin: 40px auto;
+    position: relative;
+    border-radius: 30px;
+    background: #EFE2BA;
+}
+.toggle{
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 0;
+    font-size: 20px;
+    background: transparent;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 125px;
+    height: 100%;
+    background: #A0522D;
+    border-radius: 30px;
+    transition: 0.5s ease;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 300px;
+    transition: 0.5s ease;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-bottom: 1px solid #A0522D;
+    border-right: 0;
+    border-top: 0;
+    outline: none;
+    background: transparent;
+}
+.submit-button{
+    width: 85%;
+    padding: 10px 35px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+    background: #A0522D;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+}
+
+#login{
+    left: 50px;
+}
+#signup{
+    left: 450px;
+}
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 90%;
+    visibility: hidden;
+}
+
+/*add_bus*/
+
+.form-box1{
+    position: relative;
+    width: 900px;
+    height: 900px;
+    margin: 50px auto;
+}
+#addbus{
+    left: 50px;
+}
+#sch{
+    top: 230px;
+    left: 500px;
+}
+#add{
+    top: 550px;
+    left: 280px;
+}
+.mess {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+/* bookings*/
+
+.form-box2{
+    position: relative;
+    width: 100%;
+    height: 200px; 
+    margin: 2% auto;
+    justify-content: space-between;
+}
+.input1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+.input-field1{
+    width: 40%;
+    margin: 0px 15px;
+    border-left: 0;
+    border-bottom: 1px solid #A0522D;
+    border-right: 0;
+    border-top: 0;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+}
+.input1 .submit-button{
+    top: 80px;
+}
+
+.display_bus{
+    top:500px;
+    background-color: aqua;
+    width: 1300px;
+    height: 100px;
+    margin: 2% auto;
+}
+/*--- Header ---*/
+header {
+    height: 50px;
+    background-color: #331a00;
+}
+header li {
+    list-style:none;
+    float: left;
+}
+header a {
+    display: inline-block;
+    color: white;
+    height: 50px;
+    padding: 15px;
+    text-decoration:none;
+}
+header a:hover {
+    background-color: #663300;
+}
+header div {
+    float: right;
+}
+.active {
+    background-color: #4d2600;
+}
+/*--- Buses ---*/
+.table {
+    background-color: #CD853F;
+    padding: 50px;
+    margin-top: 50px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1.5px solid black;
+    text-align: center;
+    padding: 10px;
+}
+th {
+    background-color: #A0522D;
+}
+table a:hover {
+    color: red;
+}
+/*--- Change Password ---*/
+.wrong {
+    color: red;
+    font-weight: bold;
+    font-size: 90%;
+}
+.right {
+    color: green;
+    font-weight: bold;
+    font-size: 90%;
+}
+#change {
+    left: 50px;
+    top: 130px;
+}
+/*--- Permissions ---*/
+.box {
+    background-color: #CD853F;
+    position: relative;
+    float: left;
+    width: 30%;
+    margin-left: 2.5%;
+    top: 100px;
+    height: 500px;
+    padding: 15px;
+}
